@@ -2,9 +2,9 @@
 Summary:	Net-Finger perl module
 Summary(pl):	Modu³ perla Net-Finger
 Name:		perl-Net-Finger
-Version:	1.04
-Release:	3
-Copyright:	GPL
+Version:	1.05
+Release:	1
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
 Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Net/Net-Finger-%{version}.tar.gz
