@@ -3,7 +3,7 @@ Summary:	Net-Finger perl module
 Summary(pl):	Modu³ perla Net-Finger
 Name:		perl-Net-Finger
 Version:	1.05
-Release:	2
+Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
