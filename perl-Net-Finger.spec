@@ -26,7 +26,7 @@ Net::Finger - implementacja klienta finger.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
