@@ -9,7 +9,7 @@ Summary:	Net::Finger perl module
 Summary(pl):	Modu³ perla Net::Finger
 Name:		perl-Net-Finger
 Version:	1.06
-Release:	5
+Release:	6
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
