@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Net
-%define	pnam	Finger
+%define		pdir	Net
+%define		pnam	Finger
 Summary:	Net::Finger perl module
 Summary(pl):	Modu³ perla Net::Finger
 Name:		perl-Net-Finger
