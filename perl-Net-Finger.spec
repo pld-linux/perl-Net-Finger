@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Net
 %define	pnam	Finger
-Summary:	Net-Finger perl module
-Summary(pl):	Modu³ perla Net-Finger
+Summary:	Net::Finger perl module
+Summary(pl):	Modu³ perla Net::Finger
 Name:		perl-Net-Finger
 Version:	1.06
 Release:	4
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Net-Finger - a Perl implementation of a finger client.
+Net::Finger - a Perl implementation of a finger client.
 
 %description -l pl
-Net-Finger - implementacja klienta finger.
+Net::Finger - implementacja klienta finger.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
