@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Net
 %define	pnam	Finger
-%include	/usr/lib/rpm/macros.perl
 Summary:	Net-Finger perl module
 Summary(pl):	Modu³ perla Net-Finger
 Name:		perl-Net-Finger
 Version:	1.06
-Release:	3
-
+Release:	4
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ Net-Finger - a Perl implementation of a finger client.
 Net-Finger - implementacja klienta finger.
 
 %prep
-%setup -q -n Net-Finger-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
