@@ -6,7 +6,7 @@
 %define		pdir	Net
 %define		pnam	Finger
 Summary:	Net::Finger perl module
-Summary(pl):	Modu≥ perla Net::Finger
+Summary(pl.UTF-8):   Modu≈Ç perla Net::Finger
 Name:		perl-Net-Finger
 Version:	1.06
 Release:	6
@@ -23,7 +23,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Net::Finger - a Perl implementation of a finger client.
 
-%description -l pl
+%description -l pl.UTF-8
 Net::Finger - implementacja klienta finger.
 
 %prep
