@@ -6,7 +6,7 @@
 %define		pdir	Net
 %define		pnam	Finger
 Summary:	Net::Finger perl module
-Summary(pl.UTF-8):   Moduł perla Net::Finger
+Summary(pl.UTF-8):	Moduł perla Net::Finger
 Name:		perl-Net-Finger
 Version:	1.06
 Release:	6
