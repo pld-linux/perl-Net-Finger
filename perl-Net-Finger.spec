@@ -4,7 +4,6 @@
 
 %define		pdir	Net
 %define		pnam	Finger
-%include	/usr/lib/rpm/macros.perl
 Summary:	Net::Finger perl module
 Summary(pl.UTF-8):	Moduł perla Net::Finger
 Name:		perl-Net-Finger
